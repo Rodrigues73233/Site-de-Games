@@ -1,0 +1,133 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-size: 30px;
+  border-left: 3px solid rgb(51, 51, 223);
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(51, 51, 223);
+}
+
+/* Parte superior da pagina */
+header {
+  background-color: #fff;
+}
+
+.logo {
+  margin-left: 20px;
+  padding-top: 10px;
+  color: rgb(5, 95, 168);
+}
+
+.logo:hover {
+  filter: brightness(1.4);
+}
+
+nav {
+  display: inline-flex;
+  margin-left: 1100px;
+  margin-bottom: 40px;
+}
+
+nav a {
+  color: rgb(51, 51, 223);
+  padding-right: 20px;
+  font-size: 20px;
+  transition: filter .3s;
+  border-left: 3px solid red;
+  padding-left: 8px;
+}
+
+nav a:hover {
+  filter: brightness(0.6);
+  border-left: 3px solid red;
+  padding-left: 8px;
+}
+
+/* Geral da parte principal da pagina, no caso a (main) */
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Conteúdo principal do site */
+.jogos {
+  display: flex;
+  margin-left: 50px;
+  background-color: #fff;
+  border: 2px solid black;
+  flex-grow: 1;
+  width: 1225px;
+}
+
+/* Primeiro jogo */
+.jogo-1 img {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  transition: filter .3s;
+}
+
+.jogo-1 img:hover {
+  filter: brightness(0.6);
+}
+
+/* Segundo jogo */
+.jogo-2 img {
+  margin-left: 10px;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  transition: filter .3s;
+}
+
+.jogo-2 img:hover {
+  filter: brightness(0.6);
+}
+
+/* Terceiro jogo */
+.jogo-3 img {
+  margin-left: 10px;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  transition: filter .3s;
+}
+
+.jogo-3 img:hover {
+  filter: brightness(0.6);
+}
+
+/* Footer */
+
+footer p {
+  text-align: center;
+  background-color: rgb(51, 51, 223);
+  margin-top: 100px;
+}
